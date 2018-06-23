@@ -8,7 +8,7 @@
     userId: "f68287cb-64d8-49d7-b4cf-09f36efbaca9"
   minimap:
     plugins:
-      "highlight-selected": false
+      "highlight-selected": true
       "highlight-selectedDecorationsZIndex": 0
   welcome:
     showOnStartup: false
