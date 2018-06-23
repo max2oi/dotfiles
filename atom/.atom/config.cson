@@ -10,3 +10,5 @@
     plugins:
       "highlight-selected": false
       "highlight-selectedDecorationsZIndex": 0
+  welcome:
+    showOnStartup: false
