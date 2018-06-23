@@ -1,0 +1,5 @@
+[user]
+	name = max2oi
+	email = max2oi.xiao@gmail.com
+[core]
+	excludesfile = /Users/admin/.gitignore_global
