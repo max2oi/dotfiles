@@ -104,11 +104,16 @@ source $ZSH/oh-my-zsh.sh
 export PATH="$PATH:$HOME/.rvm/bin"
 
 
-### 插件 autojump
+# 插件 autojump
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
 
-### 插件 zsh-syntax-highlighting
+# 插件 zsh-syntax-highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-### 重新载入zshrc配置文件
+# 重新载入zshrc配置文件
 alias reloadrc='source $HOME/.zshrc'
+
+# 下载youtube视频到downloads中
+# for example
+# youtube-dl -f bestvideo+bestaudio https://www.youtube.com/watch\?v\=LXb3EKWsInQ
+alias ydl='cd ~/Downloads && youtube-dl -f bestvideo+bestaudio'
