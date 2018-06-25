@@ -1,3 +1,5 @@
-# 全局忽略DS_Store
+# 全局忽略DS_Store DS_store sometimes it named ._.DS_Store, **/.DS_Store
 .DS_Store
-*/.DS_Store
+**/.DS_Store
+._.DS_Store
+**/._.DS_Store
