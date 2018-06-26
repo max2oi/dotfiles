@@ -117,3 +117,5 @@ alias reloadrc='source $HOME/.zshrc'
 # for example
 # youtube-dl -f bestvideo+bestaudio https://www.youtube.com/watch\?v\=LXb3EKWsInQ
 alias ydl='cd ~/Downloads && youtube-dl -f bestvideo+bestaudio'
+# 顺便使用ffmpeg的默认参数转为h264+aac的mp4格式
+alias ydlc='cd ~/Downloads && youtube-dl -f bestvideo+bestaudio --recode-video mp4'
