@@ -11,3 +11,21 @@
 	trustExitCode = true
 [commit]
 	template = /Users/admin/.stCommitMsg
+[alias]
+    s = status -s
+    a = !git add . && git status
+    au = !git add -u . && git status
+    aa = !git add . && git add -u . && git status
+    c = commit
+    cm = commit -m
+    ca = commit --amend
+    ac = !git add . && git commit
+    acm = !git add . && git commit -m
+    l = log --graph --all --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'
+    ll = log --stat --abbrev-commit
+    lg = log --graph --pretty='%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --all
+    llg = log --color --graph --pretty=format:'%C(bold white)%H %d%Creset%n%s%n%+b%C(bold blue)%an <%ae>%Creset %C(bold green)%cr (%ci)' --abbrev-commit
+    d = diff
+    master = checkout master
+    spull = svn rebase
+    spush = svn dcommit
