@@ -122,3 +122,6 @@ alias ydlc='cd ~/Downloads && youtube-dl -f bestvideo+bestaudio --recode-video m
 
 # 快速搜索历史
 alias hs='history | grep'
+
+# 快速复制当前目录最新commit hash(short)
+alias githash='git rev-parse --short HEAD | pbcopy'
